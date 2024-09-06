@@ -1,0 +1,17 @@
+.singin-button {
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    &:hover {
+        color: black;
+        background-color: white;
+        border: 1px solid black;
+    }
+}
+
+.singup-link {
+    margin-left: 10px;
+    & > a {
+        color: #000;
+    }
+}
